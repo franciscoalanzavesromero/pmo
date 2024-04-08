@@ -8,7 +8,7 @@ function NavBar() {
         <div className="container">
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <Link to="/" className="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-              <img src="/logo.png" alt="Logo" width="150" height="35" />
+            <img src={process.env.PUBLIC_URL + '/logo.png'} alt="Logo" width="150" height="35" />
             </Link>
 
             <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">

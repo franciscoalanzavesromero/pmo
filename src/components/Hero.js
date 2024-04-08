@@ -3,7 +3,7 @@ import React from 'react';
 function Hero() {
   return (
     <div className="px-4 py-5 my-5 text-center">
-    <img className="d-block mx-auto mb-4" src="/Biblioteca.png" alt="Library" width="200" height="200" />
+    <img className="d-block mx-auto mb-4"  alt="Library" width="200" height="200" src={process.env.PUBLIC_URL + '/Biblioteca.png'} />
       <h1 className="display-5 fw-bold text-body-emphasis">Project Management Office</h1>
       <div className="col-lg-6 mx-auto">
         <p className="lead mb-4">Simplificamos todo el proceso de gestión de proyectos al proporcionar una plataforma centralizada para acceder a toda la documentación necesaria.

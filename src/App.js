@@ -11,9 +11,9 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/pmo">
       <div>
-        <NavBar />
+        <NavBar/>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/Genericos" element={<Genericos />} />
