@@ -9,7 +9,7 @@ const data = [{
 		"titulo": "V2 GoAigua Architecture - Español",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/archivo.docx"
+		"enlace": "https://gohub.sharepoint.com/:w:/r/sites/DepartamentoProyectosIT/Documentos%20compartidos/Arquitectura%20IT/Documentos%20Arquitectura%20IT/02%20GEN%C3%89RICA/01.%20Deployment%20Architecture/DOC_ES/V2%20GoAigua%20Architecture%20%20-%20Espa%C3%B1ol.docx?d=w8c131d8dcf1946e3b2bc30bea86f011e&csf=1&web=1&e=kXM74G"
 	}, {
 		"id": 1.2,
 		"carpeta": "01. Deployment Architecture",
