@@ -9,28 +9,28 @@ const data = [{
 		"titulo": "V2 GoAigua Architecture - Español",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://gohub.sharepoint.com/:w:/r/sites/DepartamentoProyectosIT/Documentos%20compartidos/Arquitectura%20IT/Documentos%20Arquitectura%20IT/02%20GEN%C3%89RICA/01.%20Deployment%20Architecture/DOC_ES/V2%20GoAigua%20Architecture%20%20-%20Espa%C3%B1ol.docx?d=w8c131d8dcf1946e3b2bc30bea86f011e&csf=1&web=1&e=kXM74G"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F01%2E%20Deployment%20Architecture%2FDOC%5FES&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 1.2,
 		"carpeta": "01. Deployment Architecture",
 		"titulo": "V2 GoAigua Architecture - English",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/archivo.docx"
+		"enlace": "https://gohub.sharepoint.com/:w:/r/sites/DepartamentoProyectosIT/Documentos%20compartidos/Arquitectura%20IT/Documentos%20Arquitectura%20IT/02%20GEN%C3%89RICA/01.%20Deployment%20Architecture/DOC_EN/V2%20GoAigua%20Architecture%20-%20English.docx?d=wfd2cd658ad754b00b1d1e0299e42b2f3&csf=1&web=1&e=JZaDDa"
 	}, {
 		"id": 1.3,
 		"carpeta": "01. Deployment Architecture",
 		"titulo": "V3 GoAigua Architecture - Español",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/archivo.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F01%2E%20Deployment%20Architecture%2FDOC%5FES&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 1.4,
 		"carpeta": "01. Deployment Architecture",
 		"titulo": "V3 GoAigua Architecture - English",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/archivo.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F01%2E%20Deployment%20Architecture%2FDOC%5FEN&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 2.1,
 		"carpeta": "02. Cybersecurity",
@@ -65,14 +65,14 @@ const data = [{
 		"titulo": "V1 GoAigua Inventory Requirements to Product- Español",
 		"ambito": "Genérico",
 		"estado": "No disponible",
-		"enlace": "https://ejemplo.com/archivo.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F03%2E%20Inventory%20Requirements%20to%20Product%2FDOC%5FES&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 4.2,
 		"carpeta": "04. Inventory Requirements to Product",
 		"titulo": "V1 GoAigua Inventory Requirements to Product - English",
 		"ambito": "Genérico",
 		"estado": "No disponible",
-		"enlace": "https://ejemplo.com/archivo.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F03%2E%20Inventory%20Requirements%20to%20Product%2FDOC%5FEN&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 5.1,
 		"carpeta": "05. Session Schedule for each solution",
@@ -135,28 +135,28 @@ const data = [{
 		"titulo": "V1 GoAigua Data Integration - Español",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/archivo.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F09%2E%20Data%20Integration%2FDOC%5FES&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 9.2,
 		"carpeta": "09. Data Integration",
 		"titulo": "V1 GoAigua Data Integration - English",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/archivo.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F09%2E%20Data%20Integration%2FDOC%5FEN&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 9.3,
 		"carpeta": "09. Data Integration",
 		"titulo": "V2 GoAigua Data Integration - Español",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/archivo.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F09%2E%20Data%20Integration%2FDOC%5FES&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 9.4,
 		"carpeta": "09. Data Integration",
 		"titulo": "V2 GoAigua Data Integration - English",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/archivo.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F09%2E%20Data%20Integration%2FDOC%5FEN&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 11.1,
 		"carpeta": "10. Functional Analysis/01. SWE",
@@ -170,77 +170,77 @@ const data = [{
 		"titulo": "Data Science Framework (DSF)_FDS - English",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/documento8.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F10%2E%20Functional%20Analysis%2F01%2E%20SWE%2FDOC%5FEN&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 11.3,
 		"carpeta": "10. Functional Analysis/01. SWE",
 		"titulo": "Domain Master Data (DMD)_FDS - Español",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/documento8.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F10%2E%20Functional%20Analysis%2F01%2E%20SWE%2FDOC%5FES&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 11.4,
 		"carpeta": "10. Functional Analysis/01. SWE",
 		"titulo": "Domain Master Data (DMD)_FDS - English",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/documento8.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F10%2E%20Functional%20Analysis%2F01%2E%20SWE%2FDOC%5FEN&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 11.5,
 		"carpeta": "10. Functional Analysis/01. SWE",
 		"titulo": "DT Builder_FDS - Español",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/documento8.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F10%2E%20Functional%20Analysis%2F01%2E%20SWE%2FDOC%5FES&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 11.6,
 		"carpeta": "10. Functional Analysis/01. SWE",
 		"titulo": "DT Builder_FDS - English",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/documento8.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F10%2E%20Functional%20Analysis%2F01%2E%20SWE%2FDOC%5FEN&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 11.7,
 		"carpeta": "10. Functional Analysis/01. SWE",
 		"titulo": "IoT_Core_FDS - Español",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/documento8.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F10%2E%20Functional%20Analysis%2F01%2E%20SWE%2FDOC%5FES&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 11.8,
 		"carpeta": "10. Functional Analysis/01. SWE",
 		"titulo": "IoT_Core_FDS - English",
 		"ambito": "Genérico",
 		"estado": "Disponible",
-		"enlace": "https://ejemplo.com/documento8.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F10%2E%20Functional%20Analysis%2F01%2E%20SWE%2FDOC%5FEN&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 11.9,
 		"carpeta": "10. Functional Analysis/01. SWE",
 		"titulo": "Device Management (DM)_FDS - Español",
 		"ambito": "Genérico",
 		"estado": "No disponible",
-		"enlace": "https://ejemplo.com/documento8.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F10%2E%20Functional%20Analysis%2F01%2E%20SWE%2FDOC%5FES&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 11.10,
 		"carpeta": "10. Functional Analysis/01. SWE",
 		"titulo": "Device Management (DM)_FDS - English",
 		"ambito": "Genérico",
 		"estado": "No disponible",
-		"enlace": "https://ejemplo.com/documento8.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F10%2E%20Functional%20Analysis%2F01%2E%20SWE%2FDOC%5FEN&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 11.11,
 		"carpeta": "10. Functional Analysis/01. SWE",
 		"titulo": "GIS_FDS - Español",
 		"ambito": "Genérico",
 		"estado": "No disponible",
-		"enlace": "https://ejemplo.com/documento8.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F10%2E%20Functional%20Analysis%2F01%2E%20SWE%2FDOC%5FES&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 11.12,
 		"carpeta": "10. Functional Analysis/01. SWE",
 		"titulo": "GIS_FDS - English",
 		"ambito": "Genérico",
 		"estado": "No disponible",
-		"enlace": "https://ejemplo.com/documento8.docx"
+		"enlace": "https://gohub.sharepoint.com/sites/DepartamentoProyectosIT/Documentos%20compartidos/Forms/AllItems.aspx?e=5%3A4e0613e91e174f908ed9c6b0b793a8b1&sharingv2=true&fromShare=true&at=9&CT=1710327999722&OR=OWA%2DNT%2DMail&CID=7a80a605%2Db69b%2D6177%2D7d25%2D50591b2e1c83&FolderCTID=0x0120007A5D646A170E994AA6CB70E09BD8EAA4&id=%2Fsites%2FDepartamentoProyectosIT%2FDocumentos%20compartidos%2FArquitectura%20IT%2FDocumentos%20Arquitectura%20IT%2F02%20GEN%C3%89RICA%2F10%2E%20Functional%20Analysis%2F01%2E%20SWE%2FDOC%5FEN&viewid=37eabb69%2D1cfb%2D4710%2Db4c7%2D69143f83f9d3"
 	}, {
 		"id": 12.1,
 		"carpeta": "10. Functional Analysis/02. Drinking Water Solutions",
