@@ -42,6 +42,12 @@ function NavBar() {
                   Métricas
                 </Link>
               </li>
+               <li>
+                 <Link to="/Faq" className="nav-link text-white">
+                   <svg className="bi d-block mx-auto mb-1" width="24" height="24"><use xlinkHref="#table"></use></svg>
+                   Faq
+                 </Link>
+               </li>
             </ul>
           </div>
         </div>

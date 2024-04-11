@@ -6,6 +6,7 @@ import Genericos from './components/Genericos';
 import Customizados from './components/Customizados';
 import Plantillas from './components/Plantillas';
 import Metricas from './components/Metricas';
+import Faq from './components/Faq';
 import Footer from './components/Footer';
 
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Customizados" element={<Customizados />} />
           <Route path="/Plantillas" element={<Plantillas />} />
           <Route path="/Metricas" element={<Metricas />} />
+          <Route path="/Faq" element={<Faq />} />
         </Routes>
         <Footer />
       </div>
