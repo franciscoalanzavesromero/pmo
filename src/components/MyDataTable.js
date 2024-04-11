@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import * as XLSX from 'xlsx';
 import DataTable from 'react-data-table-component';
-import { Container } from 'react-bootstrap'; // Asumiendo que estás utilizando react-bootstrap
+import { Container } from 'react-bootstrap';
 
 function MyDataTable() {
   const [data, setData] = useState([]);
@@ -9,7 +9,7 @@ function MyDataTable() {
 
   useEffect(() => {
     const readExcelFile = async () => {
-      const filePath = require("./Datos.xlsx"); // Asegúrate de que la ruta es correcta.
+      const filePath = require("./Datos.xlsx");
       const response = await fetch(filePath);
       const arrayBuffer = await response.arrayBuffer();
       const workbook = XLSX.read(arrayBuffer, { type: "buffer" });
@@ -24,13 +24,21 @@ function MyDataTable() {
   }, []);
 
   const handleSearch = value => {
-    const filteredItems = data.filter(item =>
-      item.Carpeta.toLowerCase().includes(value.toLowerCase()) ||
-      item.Subcarpeta.toLowerCase().includes(value.toLowerCase()) ||
-      item.Título.toLowerCase().includes(value.toLowerCase()) ||
-      item.Ámbito.toLowerCase().includes(value.toLowerCase()) ||
-      item.Estado.toLowerCase().includes(value.toLowerCase())
-    );
+    const filteredItems = data.filter(item => {
+      const carpeta = item.Carpeta ? item.Carpeta.toLowerCase() : '';
+      const subcarpeta = item.Subcarpeta ? item.Subcarpeta.toLowerCase() : '';
+      const título = item.Título ? item.Título.toLowerCase() : '';
+      const ámbito = item.Ámbito ? item.Ámbito.toLowerCase() : '';
+      const estado = item.Estado ? item.Estado.toLowerCase() : '';
+
+      return (
+        carpeta.includes(value.toLowerCase()) ||
+        subcarpeta.includes(value.toLowerCase()) ||
+        título.includes(value.toLowerCase()) ||
+        ámbito.includes(value.toLowerCase()) ||
+        estado.includes(value.toLowerCase())
+      );
+    });
     setFilteredData(filteredItems);
   };
 
@@ -49,12 +57,12 @@ function MyDataTable() {
     },
     {
       name: 'Subcarpeta',
-      selector: row => row.Subcarpeta || "", // Maneja la posibilidad de una subcarpeta vacía
+      selector: row => row.Subcarpeta || "",
       sortable: true,
     },
     {
       name: 'Título del documento',
-      selector: row => row.Título, // Agregué el selector aquí
+      selector: row => row.Título,
       sortable: true,
       cell: row => (
         <div style={{ whiteSpace: 'normal', wordWrap: 'break-word' }}>{row.Título}</div>
@@ -84,7 +92,7 @@ function MyDataTable() {
 
   return (
     <Container>
-      <h1>Buscar un documento genérico</h1>
+      <h1>Buscar un documento en Project Management Office</h1>
       <input
         type="text"
         className="form-control mb-3"
