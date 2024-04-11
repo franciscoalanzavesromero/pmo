@@ -43,5 +43,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://franciscoalanzavesromero.github.io/pmo"
+  "homepage": "https://franciscoalanzavesromero.github.io/pmo",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
