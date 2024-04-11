@@ -1,8 +1,57 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Chart from 'chart.js/auto';
+import * as XLSX from 'xlsx';
 import '../Timeline.css';
 
 function Metricas() {
+  const [genericCompleted, setGenericCompleted] = useState(0);
+  const [genericPending, setGenericPending] = useState(0);
+  const [customCompleted, setCustomCompleted] = useState(0);
+  const [customPending, setCustomPending] = useState(0);
+  const [templateCompleted, setTemplateCompleted] = useState(0);
+  const [templatePending, setTemplatePending] = useState(0);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const filePath = require("./Datos.xlsx");
+      const response = await fetch(filePath);
+      const arrayBuffer = await response.arrayBuffer();
+      const workbook = XLSX.read(arrayBuffer, { type: "buffer" });
+      const worksheetName = workbook.SheetNames[0];
+      const worksheet = workbook.Sheets[worksheetName];
+      const jsonData = XLSX.utils.sheet_to_json(worksheet);
+
+      let genericCompCount = 0;
+      let genericPendCount = 0;
+      let customCompCount = 0;
+      let customPendCount = 0;
+      let templateCompCount = 0;
+      let templatePendCount = 0;
+
+      jsonData.forEach(item => {
+        if (item.Ámbito === 'Genérico') {
+          if (item.Estado === 'Disponible') genericCompCount++;
+          else genericPendCount++;
+        } else if (item.Ámbito === 'Customizado') {
+          if (item.Estado === 'Disponible') customCompCount++;
+          else customPendCount++;
+        } else if (item.Ámbito === 'Plantilla') {
+          if (item.Estado === 'Disponible') templateCompCount++;
+          else templatePendCount++;
+        }
+      });
+
+      setGenericCompleted(genericCompCount);
+      setGenericPending(genericPendCount);
+      setCustomCompleted(customCompCount);
+      setCustomPending(customPendCount);
+      setTemplateCompleted(templateCompCount);
+      setTemplatePending(templatePendCount);
+    };
+
+    fetchData();
+  }, []);
+
   const chartGenericRef = useRef(null);
   const chartCustomRef = useRef(null);
   const chartTemplateRef = useRef(null);
@@ -16,7 +65,7 @@ function Metricas() {
         labels: ['Completado', 'Pendiente'],
         datasets: [{
           label: 'Documentos genéricos',
-          data: [112, 420], // Datos para documentos genéricos (ajústalos según necesites)
+          data: [genericCompleted, genericPending],
           backgroundColor: [
             'rgba(75, 192, 192, 0.2)',
             'rgba(255, 99, 132, 0.2)',
@@ -38,7 +87,7 @@ function Metricas() {
         labels: ['Completado', 'Pendiente'],
         datasets: [{
           label: 'Documentos customizados',
-          data: [17, 69], // Datos para documentos customizados (ajústalos según necesites)
+          data: [customCompleted, customPending],
           backgroundColor: [
             'rgba(54, 162, 235, 0.2)',
             'rgba(255, 206, 86, 0.2)',
@@ -60,7 +109,7 @@ function Metricas() {
         labels: ['Completado', 'Pendiente'],
         datasets: [{
           label: 'Plantillas',
-          data: [6, 17], // Datos para plantillas (ajústalos según necesites)
+          data: [templateCompleted, templatePending],
           backgroundColor: [
             'rgba(153, 102, 255, 0.2)',
             'rgba(255, 159, 64, 0.2)',
@@ -85,7 +134,7 @@ function Metricas() {
         chartTemplateRef.current.destroy();
       }
     };
-  }, []);
+  }, [genericCompleted, genericPending, customCompleted, customPending, templateCompleted, templatePending]);
 
   return (
     <div className="container">
@@ -140,20 +189,20 @@ function Metricas() {
         <div className="col-md-4 text-center">
           <h2>Documentos genéricos</h2>
           <canvas id="chartGeneric" style={{maxWidth: "100%", height: "auto"}}></canvas>
-          <p>Total 210 Español + 210 English</p>
-          <p>1 documento ETL por vertical</p>
-          <p>Sin añadir nuevas versiones</p>
+          <p>Total completados: {genericCompleted}</p>
+          <p>Total pendientes: {genericPending}</p>
         </div>
         <div className="col-md-4 text-center">
           <h2>Documentos customizados</h2>
           <canvas id="chartCustom" style={{maxWidth: "100%", height: "auto"}}></canvas>
-          <p>Total 69 English</p>
-          <p>1 documento ETL por vertical</p>
+          <p>Total completados: {customCompleted}</p>
+          <p>Total pendientes: {customPending}</p>
         </div>
         <div className="col-md-4 text-center">
           <h2>Plantillas</h2>
           <canvas id="chartTemplate" style={{maxWidth: "100%", height: "auto"}}></canvas>
-          <p>Total 17 Español</p>
+          <p>Total completadas: {templateCompleted}</p>
+          <p>Total pendientes: {templatePending}</p>
         </div>
       </div>
     </div>
