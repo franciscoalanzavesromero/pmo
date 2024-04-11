@@ -14,7 +14,8 @@ function Footer() {
           <li className="nav-item"><Link to="/Genericos" className="nav-link px-2 text-body-secondary">Genéricos</Link></li>
           <li className="nav-item"><Link to="/Customizados" className="nav-link px-2 text-body-secondary">Customizados</Link></li>
           <li className="nav-item"><Link to="/Plantillas" className="nav-link px-2 text-body-secondary">Plantillas</Link></li>
-          <li className="nav-item"><Link to="/Plantillas" className="nav-link px-2 text-body-secondary">Plantillas</Link></li>
+          <li className="nav-item"><Link to="/Metricas" className="nav-link px-2 text-body-secondary">Metricas</Link></li>
+          <li className="nav-item"><Link to="/Faq" className="nav-link px-2 text-body-secondary">Faq</Link></li>
           {/* Agrega más enlaces aquí si es necesario */}
         </ul>
       </footer>
